@@ -10,7 +10,7 @@ In other words, it records the results of important functions between executions
 
 Example usage:
 
-```
+```python
 import pandas as pd
 from keepit import keepit
 
@@ -31,7 +31,7 @@ expensive_function(number=1)
 # Files are specific to each parameter execution, 
 # so this will again take a long time:
 expensive_function(number=42)
-# After this, we should have two files, one for number=1, 
+# After this, we should have two files: one for number=1, 
 # and another one for number=42.
 
 ```
